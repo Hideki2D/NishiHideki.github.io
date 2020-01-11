@@ -1,7 +1,7 @@
 /* Fonts */
 @font-face {
     font-family: 'Miriam Libre';
-    src: url('F:/my/Documnets/GitRepository/NishiHideki.github.io/miriamlibre-bold.woff2') format('woff2'), url('F:/my/Documnets/GitRepository/NishiHideki.github.io/miriamlibre-bold.woff') format('woff');
+    src: url('./miriamlibre-bold.woff2') format('woff2'), url('./miriamlibre-bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
