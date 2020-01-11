@@ -366,26 +366,26 @@ caption {
 /* Patterns navigation */
 .patterns {
     overflow: auto;
-    margin-top: 5.5rem;
+    margin-top: 13rem;
 }
 .patterns * {
-    margin-top: 0.1rem;
+    margin-top: 0.25rem;
 }
 .patterns h3 {
-    font-size: 1rem;
+    font-size: 5rem;
 }
 .patterns h3 + ul {
-    margin-top: 0.75rem;
+    margin-top: 1.75rem;
 }
 .patterns li {
-    line-height: 1.125;
+    line-height: 1.5;
     list-style: none;
 }
 .patterns li + li {
-    margin-top: 5.75rem;
+    margin-top: 6.75rem;
 }
 .patterns ul ul {
-    margin-left: 0.75rem;
+    margin-left: 2.75rem;
 }
 .pattern a {
     border: 0;
