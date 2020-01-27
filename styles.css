@@ -366,7 +366,7 @@ caption {
 /* Patterns navigation */
 .patterns {
     overflow: auto;
-    margin-top: 1rem;
+    margin-top: 1.0rem;
 }
 .patterns * {
     margin-top: 0.25rem;
