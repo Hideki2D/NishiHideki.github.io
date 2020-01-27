@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <heada>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,height=200px,initial-scale=0, user-scalable=1">
+  <link rel="stylesheet" href="./prism.css" media="none" onload="this.media='all';">
   <link rel="stylesheet" type="text/css" href="./styles.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <body>
+ 
+<body>
     <div class="wrapper">
       <header class="intro-and-nav" role="banner">    
+        <div class="intro">
+          <a class="logo" href="/" aria-label="Notepad&#43;&#43; home page">
+            <img src="./logo.svg" alt="">
+          </a>
   <div>
     <style>
       html { overflow:  hidden; }
       div { height:  2000px; }
      </style>
-    <nav id="patterns-nav" class="patterns" role="navigation">
-      <h2 class="vh">Main navigation</h2>
-      
+      <nav id="patterns-nav" class="patterns" role="navigation">
+        <h2 class="vh">Main navigation</h2>
+        <button id="menu-button" aria-expanded="false">
+          <svg viewBox="0 0 50 50" aria-hidden="true" focusable="false">
+            <use xlink:href="#menu"></use>
+          </svg>
+          Menu
+        </button>
+
       <ul id="patterns-list">
       
         <li class="pattern">
@@ -56,6 +68,7 @@
       
       </ul>
     </nav>
+
 <style>
   .main-and-footer {
     font: 24pt ND Astroneer;  
