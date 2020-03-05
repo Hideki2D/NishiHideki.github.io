@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "NDAstroneer";
+    src: url("../fonts/17885.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/17885.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("../fonts/17885.otf") format("opentype"), /* Open Type Font */
+      url("../fonts/17885.svg") format("svg"), /* Legacy iOS */
+      url("../fonts/17885.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("../fonts/17885.woff") format("woff"), /* Modern Browsers */
+      url("../fonts/17885.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+body
+{
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    background: url(../images/img.jpg);
+}
 .logo img
 {
     height: 296px;
@@ -64,45 +82,47 @@
     margin-left: 15rem;
     margin-top: 16rem;
 }
-.amain{
-    background-color:whitesmoke;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
-    color:black;
-    height: 57rem;
-    width: 89rem;
-    font: 22pt Courier New;  
-    font-weight: bold;
-    margin-left: 15.7rem;
-    margin-top: -0.5rem;
-}
-
 .main a{
-    font: 24pt Comic Sans MS, serif;    
-    
+    font: 24pt Comic Sans MS, serif;     
 }
 
-.img img
-{
-    width: 416px;
-    height: 265px;
-    margin-left: 0em;
-    margin-top: -1em;
-}
-body
-{
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden;     
-}
 .article
-{
-    background-color:white;
-    clip-path: inset(0 0 0 0);
-    stroke: black;
-    stroke-width: 1rem;
-    height: 22rem;
-    width: 87.6rem;
-    position: relative; 
-    top: 10px; 
-    left: 10px;
+{ 
+    height: 20rem;
+    width: 20rem;
+    background-image: url(../images/img2.png);
+    top: 0px; 
+    left: 235px;
+    -webkit-border-radius: 20px;   
+    border: 5px solid;
+    border-color: black ;
+    margin-top: 15px;
+    margin-left: 236px;
+    list-style-type: none;
+    list-style: none;   
     
 }
+.txt p
+{
+   
+   font-family: 'NDAstroneer';
+   font-size: 18pt;
+   font-weight: bold;
+   text-align: center;
+   margin-left: 0rem;
+   margin-top: 1rem;
+}
+.art img
+{   
+    height: 190px;
+    margin-top: 0.6rem;
+    margin-left: 0.7rem;
+}
+#patterns-list2
+{
+    margin-top: 0rem;
+    margin-left: 0rem;
+    list-style: none;
+}
+
+
