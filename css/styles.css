@@ -1,0 +1,108 @@
+.logo img
+{
+    height: 296px;
+    width: 296px;
+    margin-left: -1.05em;
+    margin-top: 0.5em;
+}
+.text
+{
+    font-size: 22pt;
+    font: 22pt Courier New;  
+    font-weight: bold;
+    margin-left: -0.1rem;
+    margin-top:  0rem;
+}
+.intro-and-nav {
+    text-align: center;
+    width: 16rem;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-right: 3px solid;
+}
+.pattern [aria-current] {
+    background-color: #111;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+    color: #fefefe;
+    height: 2.2rem;
+    width: 15.66rem;
+    margin-left: -2.15rem;
+
+ }
+.pattern [aria-non]
+{
+    color: black;
+    height: 2rem;
+    width: 15.5rem;
+    margin-left: -2.15rem;
+}   
+ .pattern a {
+    display: block;  
+    border: 0;
+    align-items: baseline;
+    font-weight: bold;
+    padding: 0rem 0;
+    text-decoration: none;
+}
+.pattern{
+    margin-top: 2rem;
+    list-style-type: none;
+    list-style: none;
+}
+.patterns-list{
+    margin-top: 1rem;
+    list-style: none;
+    margin-left: 0;
+}
+
+.main{
+    text-align: center;
+    font: 22pt Courier New;  
+    font-weight: bold;
+    margin-left: 15rem;
+    margin-top: 16rem;
+}
+.amain{
+    background-color:whitesmoke;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
+    color:black;
+    height: 57rem;
+    width: 89rem;
+    font: 22pt Courier New;  
+    font-weight: bold;
+    margin-left: 15.7rem;
+    margin-top: -0.5rem;
+}
+
+.main a{
+    font: 24pt Comic Sans MS, serif;    
+    
+}
+
+.img img
+{
+    width: 416px;
+    height: 265px;
+    margin-left: 0em;
+    margin-top: -1em;
+}
+body
+{
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden;     
+}
+.article
+{
+    background-color:white;
+    clip-path: inset(0 0 0 0);
+    stroke: black;
+    stroke-width: 1rem;
+    height: 22rem;
+    width: 87.6rem;
+    position: relative; 
+    top: 10px; 
+    left: 10px;
+    
+}
